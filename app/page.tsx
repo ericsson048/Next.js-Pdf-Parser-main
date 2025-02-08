@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useState } from "react";
-import toast, { Toaster } from "react-hot-toast";
+import  { Toaster } from "react-hot-toast";
 import animationUpload from "@/public/lottie/upload-pdf.json";
 
 // Dynamically import components that require browser APIs
