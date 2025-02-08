@@ -17,23 +17,23 @@ const LottieAnimation = dynamic(() => import("lottie-react"), {
 export default function FileUpload() {
   const [fileResponse, setFileResponse] = useState(null);
 
-  const uploadOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationUpload,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const uploadOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: animationUpload,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
 
-  const Notify = (status: string, message: string) => {
-    toast.dismiss();
-    if (status === "success") {
-      toast.success(message);
-    } else {
-      toast.error(message);
-    }
-  };
+  // const Notify = (status: string, message: string) => {
+  //   toast.dismiss();
+  //   if (status === "success") {
+  //     toast.success(message);
+  //   } else {
+  //     toast.error(message);
+  //   }
+  // };
 
   return (
     <div>
